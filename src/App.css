@@ -1,0 +1,106 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.container{
+  background-color: #153448;
+  height: 380px;
+  padding: 24px;
+ 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+  color: white;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+
+  
+}
+
+button{
+padding: 10px;
+border-radius: 5px;
+border: none;
+background-color: rgb(0, 144, 144);
+text-transform: uppercase;
+font-weight: 700;
+cursor: pointer;
+text-align: center;
+}
+
+.header .password{
+  padding: 2px;
+  margin: 10px;
+}
+.copybutton{
+  margin: 10px;
+  height: 30px;
+  font-size: 10px;
+}
+.charLength{
+display: flex;
+flex-direction: column;
+color: white;
+font-size: 20px;
+font-weight: 700;
+}
+
+.charLength span{
+display: flex;
+justify-content: space-between;
+padding: 5px;
+margin: 10px;
+}
+
+.checkboxes{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700p;
+  color: white;
+}
+
+.checkboxes div{
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.generatebtn{
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.error{
+  padding: 10px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+.copybtnClicked{
+  background-color: rgb(1, 21, 21);
+  color: white;
+  margin: 10px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.password-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: white;
+}
+
+
